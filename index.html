@@ -12,7 +12,9 @@
             }
           </script>
           
-          <div id="app" v-for="x in items">{{ x }}</div>
+            <template>
+                <div id="app" v-for="x in items">{{ x }}</div>
+            </template>
           
           <script type="module">
             import { createApp } from 'vue'
